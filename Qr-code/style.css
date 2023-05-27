@@ -7,23 +7,38 @@
 
 
 body{
-    background-color: aqua;
+    background-color: hsl(220, 15%, 55%);
 }
 
 #main{
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    width: 350px;
+    margin: auto;
+    margin-top: 80px;
+    width: 340px;
     height: 500px;
-    background-color: white;
+    background-color:hsl(0, 0%, 100%);
     border-radius: 20px;
 
 }
 
 img{
-    width: 340px;
+    width: 330px;
     border-radius:10%;
-    padding: 20px;
+    padding: 13px;
     margin-left: 5px;
 }
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    
+}
+
+p{
+    padding-top: 15px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+
