@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: aqua;
+}
+
+#main{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+img{
+    width: 340px;
+    border-radius:10%;
+    padding: 20px;
+    margin-left: 5px;
+}
