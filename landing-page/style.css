@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./background-image/background-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow-x: hidden;  
+    object-fit: cover;
+}
+
+.container{
+    position: relative;
+    top: 30%;
+    left: 2%;
+    background-color: rgba(0, 0, 0, 0.);
+}
+
+.title{
+    color: #fff;
+    font-size: 3rem;
+}
+
+p{
+    max-width: 600px;
+    color:rgba(255, 255, 255, 0.7);
+    line-height: 2rem;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input{
+    width: 18em;
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus {
+    outline:  2px solid #1cb495;
+  }
+
+button{
+    background-color: #1cb495;
+    color: #fff;
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.social{
+    margin-top: 40px;
+
+}
+
+.social i{
+  padding: 20px 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.social i:hover{
+    color: #1cb495;
+}
+
+.span{
+
+    margin-top: 190px;
+    color: lightgray;
+}
+
+a{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1cb495;
+}
+
+@media(max-Width: 384px){
+    button{
+        margin-top: 10px;
+    }
+}
